@@ -14,7 +14,7 @@ app.use(bodyparser.urlencoded({ extended: true }));
 //database connection
 mongoose.connect(config.dbpath, function(err, db){
     if(err){ console.log("not connected")}
-    console.log("connected to db....")
+   else{ console.log("connected to db....")}
 });
 var db = mongoose.connection;
 

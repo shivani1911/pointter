@@ -19,10 +19,11 @@ mongoose.connect(config.dbpath, function(err, db){
 var db = mongoose.connection;
 
 //api routes
+/*
 app.get('/', function(req, res){
     res.send("pointtersss!!!!!!");
 });
-
+*/
 app.post('/signup',fetch.signup );
 app.post('/login', fetch.login);
 

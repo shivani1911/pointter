@@ -4,6 +4,6 @@ module.exports ={
     
     'secret': 'pointters-secret-key',
     
-    'dbpath' : 'mongodb://localhost/pointter',
+    'dbpath' : 'mongodb://admin:agicent@ds121980.mlab.com:21980/pointters',
 };
 
